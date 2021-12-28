@@ -20,14 +20,13 @@ fate_project_base=$(cd `dirname "$(realpath "${BASH_SOURCE[0]:-${(%):-%x}}")"`; 
 export FATE_PROJECT_BASE=$fate_project_base
 export FATE_DEPLOY_BASE=$fate_project_base
 export EGGROLL_HOME=
-export PYTHONPATH=
+export PYTHONPATH=/home/lupo/Development/Software/Github/eliaskousk/fate/FATE/python:/home/lupo/Development/Software/Github/eliaskousk/fate/FATE/fateflow/python
 
 export FATE_LOG_LEVEL=DEBUG
 export FATE_PROFILE_LOG_ENABLED=0
 export EGGROLL_LOG_LEVEL=INFO
 
-venv=
-export JAVA_HOME=
-export PATH=$PATH:$JAVA_HOME/bin
-source ${venv}/bin/activate
-
+# venv=
+# export JAVA_HOME=
+# export PATH=$PATH:$JAVA_HOME/bin
+# source ${venv}/bin/activate

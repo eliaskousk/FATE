@@ -1,2 +1,4 @@
 poetry.lock
 dist/
+/build/
+/fate_client.egg-info/

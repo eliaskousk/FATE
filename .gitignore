@@ -66,3 +66,4 @@ dependency_links.txt
 requires.txt
 SOURCES.txt
 top_level.txt
+/job_*_log/
